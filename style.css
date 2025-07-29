@@ -61,7 +61,7 @@ body{
     font-weight: bold;
 
 }
-.Taikhoan{
+.account{
     background-color: rgb(255, 255, 255);
     margin:17% 0 0 0;
     color:#0b57cf;
@@ -70,11 +70,11 @@ body{
     padding: 5px 24px 5px 24px;
 
 }
-.Taikhoan:hover{
+.account:hover{
     background-color: rgb(173, 173, 170);
     border-radius: 20px;
 }
-.Tieptheo{
+.next{
     font-size: 17px;
     width: 25%;
     height: 90%;
