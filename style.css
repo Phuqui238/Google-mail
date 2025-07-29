@@ -10,7 +10,7 @@ body{
 .container{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(140, 140, 138);
+    background-color: #f0f3f8;
     display: flex ;
     justify-content: center;
     align-items: center;
@@ -44,22 +44,27 @@ body{
     height: 10%;
     margin-bottom: 5px;
  }
- .chuthich{
+ .note{
     padding:0 7% 0 0;
  }
 
 .email {
     margin: 0;
-    color:rgb(22, 119, 161);
+    color: #0b57cf;
  }  
 .word{
     margin: 10% 0 0 0;
 }
 
+.word span{
+    color:#0b57cf;
+    font-weight: bold;
+
+}
 .Taikhoan{
     background-color: rgb(255, 255, 255);
     margin:17% 0 0 0;
-    color:rgb(22, 119, 161);
+    color:#0b57cf;
     border:none;
     font-size: 17px;
     padding: 5px 24px 5px 24px;
@@ -73,7 +78,7 @@ body{
     font-size: 17px;
     width: 25%;
     height: 90%;
-    background-color: rgb(25, 140, 189);
+    background-color: #0b57cf;
     color: white;
     border-radius: 20px;
     border:none;
@@ -83,11 +88,40 @@ body{
     font-weight: 500;
 }
 
-.nutbam{
+.button{
     display: flex;
     margin-left: auto;
     align-items: flex-end;
     justify-content: flex-end;
     gap: 12px;
     padding:0 5% 0 0;
+}
+
+.language {
+    display: flex;
+    justify-content: start;
+    bottom: 18%;    
+    left: 21%;
+    gap: 30px;
+    color: #262728;
+    font-size: 14px;
+    position: absolute;
+    font-weight:500;
+}
+.arrow{
+    font-size: 20px;
+    gap: 20px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #262728;
+    font-size: 14px;
+    position: absolute;
+    bottom: 18%;
+    width: 143%;
+    font-weight:500;
 }
